@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 # set parameters
 gamma = 2.0
 beta = 0.985**20
-R = 1.025**(20-1)
+R = 1.025**20
 productivity = np.array([0.8027, 1.0, 1.2457])
 n_prod = len(productivity)
 P = np.array([
